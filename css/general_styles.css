@@ -1,0 +1,87 @@
+/**General**/
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+:root{
+    --primario: rgb(224, 0, 122);
+    --oscuro: rgb(34, 34, 34) ;
+    --oscuro_claro: rgb(92, 92, 92);
+    --claro: rgb(255, 255, 255);
+    --amarillo: #ffce07;
+    --azul: rgb(36, 34, 99);
+}/*custom properties*/
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/**Custom text**/
+h1, h2, h3, h5{
+    color: var(--primario);
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+
+
+h4{
+    color: var(--oscuro_claro);
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+
+h5{
+    font-size: 1.2rem;
+}
+
+h1, h2{
+    text-transform: uppercase;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: var(--oscuro_claro);
+
+}
+
+.inf-sucursales{
+    color: var(--claro);
+}
+
+/**Customer Bootstrap**/
+.btn-primary, .btn-primary:active, .btn-primary:visited{
+    background-color: var(--primario);
+    border-style: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--amarillo);
+}
+
+.btn-secundary, .btn-secundary:active, .btn-secundary:visited{
+    background-color: var(--claro);
+    border-style: none;
+}
+
+.btn-secundary:hover{
+    background-color: var(--amarillo);
+}
+
+.form-check{
+    color: var(--claro);
+}
+
+.nav-link{
+    color: var(--oscuro_claro);
+    border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    border-color: var(--primario);
+}
+
+.breadcrumb-item a{
+    color: var(--primario);
+    text-decoration: none;
+}

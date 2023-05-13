@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menú-El Portón</title>
+
+    <!--Tipografias Nunito y Heebo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Nunito&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="../images/porton-icono.png">
+
+    <!-- Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <!--Link Custom CSS-->
+    <link rel="stylesheet" href="../css/general_styles.css">
+    <link rel="stylesheet" href="../css/menu_styles.css">
+
+     <!--cdn font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+  <body>
+
+    <!--  -->
+    <a name="index"></a>
+    <a name="top"></a>
+
+    <!--Logo de El Portón-->
+    <header>        
+      <img src="../images/porton-logo.jpg" alt="El Portón" height="50px">
+    </header>
+
+    <!--Menú de navegación-->
+
+    <nav class="container navbar navbar-expand-md mt-4 shadow">
+
+      <!--icono hamburguesa-->
+      <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="row collapse navbar-collapse text-center" id="navbarNav">
+        
+        <!--Home boton-->
+        <a href="../index.html" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="5 12 3 12 12 3 21 12 19 12" />
+              <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+              <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+          </svg>
+          <h6 class="mt-1">Inicio</h6>
+        </a>   
+        
+        <!--Menú boton-->
+        <a href="menu.html" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
+          </svg>
+          <h6 class="mt-1">Menú</h6>
+        </a>
+
+        <!--Sucursales boton-->
+        <a href="../index.html#sucursales" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <line x1="3" y1="21" x2="21" y2="21" />
+              <line x1="9" y1="8" x2="10" y2="8" />
+              <line x1="9" y1="12" x2="10" y2="12" />
+              <line x1="9" y1="16" x2="10" y2="16" />
+              <line x1="14" y1="8" x2="15" y2="8" />
+              <line x1="14" y1="12" x2="15" y2="12" />
+              <line x1="14" y1="16" x2="15" y2="16" />
+              <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+            </svg>
+          <h6 class="mt-1">Sucursales</h6>
+        </a>
+
+        <!--Contacto boton-->
+        <a href="../index.html#contacto" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <polyline points="3 7 12 13 21 7" />
+          </svg>
+          <h6 class="mt-1">Contacto</h6>
+        </a>
+
+        <!--Ordenar boton-->
+        <a href="https://wow-plus.com/" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <circle cx="7" cy="17" r="2" />
+              <circle cx="17" cy="17" r="2" />
+              <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+          </svg>
+          <h6 class="mt-1">¡Ordena Ahora!</h6>
+        </a> 
+      </div> 
+    </nav>
+
+    <!--Contenido principal-->
+    <main class="container">
+
+      <!--Migajas de pan-->
+      <nav class="mt-3" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Menú</li>
+        </ol>
+      </nav>
+
+      <!--Menú-->
+      <div class="row">
+
+        <a class="card text-bg-dark col-md-6 hover-menu" href="desayunos.html">
+          <img src="../images/desayunos.jpg" class="card-img " alt="...">
+          <div class="card-img-overlay bgc-desayunos d-flex justify-content-center align-items-end">
+            <h1 class="card-title">Desayunos</h1>
+          </div>
+        </a>
+
+        <a class="card text-bg-dark col-md-6 hover-menu" href="comidas.html">
+          <img src="../images/comidas.jpg" class="card-img " alt="...">
+          <div class="card-img-overlay bgc-comidas d-flex justify-content-center align-items-end">
+            <h1 class="card-title">Comidas</h1>
+          </div>
+        </a>
+
+      </div>
+
+    </main>
+
+    <footer class="container mt-5">
+
+      <div class="row text-center">
+
+        <p>El nombre comercial, logotipo y la imagen comercial de El Portón®​ son propiedad de Alsea. Todos los derechos reservados</p>
+
+        <ul class="nav justify-content-around">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/menu.html">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sucursales">Sucursales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+
+      </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

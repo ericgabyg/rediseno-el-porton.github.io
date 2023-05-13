@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio-El Portón</title>
+
+    <!--Tipografias Nunito y Heebo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Nunito&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/porton-icono.png">
+
+    <!-- Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <!--Link Custom CSS-->
+    <link rel="stylesheet" href="css/general_styles.css">
+    <link rel="stylesheet" href="css/index_styles.css">
+
+     <!--cdn font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+  <body>
+
+    <!--  -->
+    <a name="index"></a>
+    <a name="top"></a>
+
+    <!--Logo de El Portón-->
+    <header>        
+      <img src="images/porton-logo.jpg" alt="El Portón" height="50px">
+    </header>
+
+    <!--Menú de navegación-->
+
+    <nav class="container navbar navbar-expand-md mt-4 shadow">
+
+      <!--icono hamburguesa-->
+      <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="row collapse navbar-collapse text-center" id="navbarNav">
+        
+        <!--Home boton-->
+        <a href="index.html" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="5 12 3 12 12 3 21 12 19 12" />
+              <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+              <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+          </svg>
+          <h6 class="mt-1">Inicio</h6>
+        </a>   
+        
+        <!--Menú boton-->
+        <a href="html/menu.html" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
+          </svg>
+          <h6 class="mt-1">Menú</h6>
+        </a>
+
+        <!--Sucursales boton-->
+        <a href="#sucursales" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <line x1="3" y1="21" x2="21" y2="21" />
+              <line x1="9" y1="8" x2="10" y2="8" />
+              <line x1="9" y1="12" x2="10" y2="12" />
+              <line x1="9" y1="16" x2="10" y2="16" />
+              <line x1="14" y1="8" x2="15" y2="8" />
+              <line x1="14" y1="12" x2="15" y2="12" />
+              <line x1="14" y1="16" x2="15" y2="16" />
+              <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+            </svg>
+          <h6 class="mt-1">Sucursales</h6>
+        </a>
+
+        <!--Contacto boton-->
+        <a href="#contacto" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <polyline points="3 7 12 13 21 7" />
+          </svg>
+          <h6 class="mt-1">Contacto</h6>
+        </a>
+
+        <!--Ordenar boton-->
+        <a href="https://wow-plus.com/" class="menu-text col-sm-12 col-md-2 mx-auto btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <circle cx="7" cy="17" r="2" />
+              <circle cx="17" cy="17" r="2" />
+              <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+          </svg>
+          <h6 class="mt-1">¡Ordena Ahora!</h6>
+        </a> 
+      </div> 
+    </nav>
+
+    <!--Contenido principal-->
+    <main class="container">
+        <section class="row">
+
+          <!--Carrusel-->
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/porton-promo-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/porton-promo-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/porton-promo-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/porton-promo-4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/porton-promo-5.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/porton-promo-6.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!--sintaxis grecas bootstrap-->
+          <img src="images/grecas.jpg" alt="" class="col-sm-12">
+  
+          <!--Sintaxis Nuestras Sucursales-->
+          <a name="sucursales"></a>
+          <h2 class="text-center mt-4">Nuestras sucursales</h2>
+          <div class="row">
+
+          <!--Sucursales Metropolitana-->
+          <div class="col-sm-12 col-md-6 pt-3" >
+
+            <h4>Zona Metropolitana</h4>
+
+            <div class="row contenido-sucursales" >
+
+              <!--Sintaxis Las Alamedas-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Las Alamedas</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-2873</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@19.5555556,-99.245522,17z/data=!3m1!4b1!4m5!3m4!1s0x85d21ce51a888201:0xf0b70ecb1f3061d8!8m2!3d19.5555556!4d-99.2433333?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+  
+                </div>
+              </div>
+  
+              <!--Sintaxis San José Tecamac-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">San José Tecamac</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-4040</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@19.6985849,-98.982938,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1ed1791420fb7:0x24fa1f1055785aa4!8m2!3d19.6985849!4d-98.9807493?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+ 
+                </div>
+              </div>
+
+              <!--Sintaxis Plaza Oriente-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Plaza Oriente</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-2873</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1fdca0fffffff:0x929d142b14e5974f?source=g.page.share" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+ 
+                </div>
+              </div>
+
+              <!--Sintaxis Tepeyac-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Tepeyac</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-2873</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@19.4695184,-99.1184884,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f9725aaaaaab:0x1aac8fb36d7c5c84!8m2!3d19.4695184!4d-99.1162997?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+ 
+                </div>
+              </div>
+
+              <!--Sintaxis Buenavista-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Buenavista</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-1979</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1f8da430743c9:0xb9946908c95771d0?source=g.page.share" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+ 
+                </div>
+              </div>
+
+              <!--Sintaxis Toreo-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Toreo</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-3904</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@19.4508606,-99.2218453,17z/data=!3m1!4b1!4m5!3m4!1s0x85d20246558969d5:0xd1a2a8745ab77c1d!8m2!3d19.4508606!4d-99.2196566?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+ 
+                </div>
+              </div>
+
+              <!--Sintaxis Lindavista-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Lindavista</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-3904</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@19.4912049,-99.1498985,14z/data=!3m1!5s0x85d1f9cad8cd9279:0x1002c2cdece425c8!4m5!3m4!1s0x0:0xc309ddcd3990d747!8m2!3d19.5064045!4d-99.1453656?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+ 
+                </div>
+              </div>
+
+              <!--Sintaxis Plaza Universidad-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Plaza Universidad</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-0076</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@19.3680844,-99.1674625,17z/data=!4m5!3m4!1s0x85d1ffbc2c555555:0xc2d930af3c8b606c!8m2!3d19.3680794!4d-99.1652738?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+ 
+                </div>
+              </div>
+
+              <!--Sintaxis Plaza Aragón-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Plaza Aragón</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-6158</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@19.3680794,-99.1652738,17z/data=!4m5!3m4!1s0x0:0xc2d930af3c8b606c!8m2!3d19.3680794!4d-99.1652738?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+ 
+                </div>
+              </div>
+
+              <!--M. Ángel de Quevedo-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">M. Ángel de Quevedo</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >55-3888-0593</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@19.3457276,-99.1833502,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1fffbb3d64cb9:0xc91a75689091054e!8m2!3d19.3457276!4d-99.1811615?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+ 
+                </div>
+              </div>
+
+            </div>           
+          </div>
+
+          
+          <!--Sucursales Republica-->
+          <div class="col-sm-12 col-md-6 pt-3">
+
+            <h4>Interior de la República</h4>
+
+            <div class="row contenido-sucursales">
+
+              <!--Sintaxis Querétaro-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Querétaro</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >44-2217-1037</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@20.6161938,-100.4021303,17z/data=!3m1!4b1!4m5!3m4!1s0x85d35ae1342dda8d:0xf0940305bb5c1995!8m2!3d20.6161938!4d-100.3999416?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+  
+                </div>
+              </div>
+
+              <!--Sintaxis Villahermosa-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Villahermosa</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >99-3209-0831</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@17.9883024,-92.9694926,17z/data=!3m1!4b1!4m5!3m4!1s0x85edd79a5e0d0707:0x525de36e9ba689d5!8m2!3d17.9883024!4d-92.9673039?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+  
+                </div>
+              </div>
+
+              <!--Sintaxis Zacatecas-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Zacatecas</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >49-2124-6566</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@22.7620449,-102.5512336,17z/data=!3m1!4b1!4m5!3m4!1s0x86824ec0e390f4a9:0x50231e44b648ba08!8m2!3d22.7620449!4d-102.5490449?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+  
+                </div>
+              </div>
+
+              <!--Sintaxis Durango-->
+              <div class="card col-md-12 col-lg-5 mx-auto my-2" >
+                <div class="card-body inf-sucursales text-center">
+                  <h5 class="card-title">Durango</h5>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                  </svg>
+  
+                  <p >61-8110-0351</p>
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E0007A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+  
+                  <p>07:00am - 10:00pm</p>
+                  
+                  <a href="https://www.google.com.mx/maps/place/El+Port%C3%B3n/@24.0353779,-104.6573517,17z/data=!3m1!4b1!4m5!3m4!1s0x869bb7d84cc230a7:0xdb530ac3b37c87dd!8m2!3d24.0353779!4d-104.655163?shorturl=1" 
+                  type="button" target="_blank" class="btn btn-primary" >Cómo llegar</a>
+  
+                </div>
+              </div>
+
+            </div>
+            
+            
+          </div>
+
+          </div>
+
+          <!--sintaxis grecas bootstrap-->
+          <img src="images/grecas.jpg" alt="" class="col-sm-12">
+
+          <!--Sintaxis Contacto-->
+          <a name="contacto"></a>
+          <h2 class="text-center mt-4">Contáctanos</h2>
+          <p class="text-center">Queremos escucharte, déjanos tu comentario aquí o visita nuestras redes sociales</p>
+
+          <div class="row">
+
+            <!--Formulario-->
+            <div class="col-sm-12 col-md-8 rounded-3" style="background-color: var(--primario)">
+
+              <div class="row my-3 " >
+
+                <!--Contenido formulario-->
+                
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Estado*">
+                </div>
+
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Sucursal*">
+                </div>
+
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre*">
+                </div>
+
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono*">
+                </div>
+
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo*">
+                </div>
+
+                <div class="mb-3 col-sm-12 col-md-6">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+                </div>
+
+                <div class="mb-3">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
+                </div>
+
+                <!--Acuerdos-->
+
+                <div class="text-center texto-blanco">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    He leido el aviso de privacidad y acepto ser contactado
+                  </label>
+                </div>
+
+                <!--Enviar-->
+
+                <a href="#" type="button" target="_blank" class="btn btn-secundary">Enviar</a>
+
+              </div>
+
+              <h1>Hola</h1>
+
+            </div>
+
+            <!--Redes sociales-->
+            <div class="col-sm-12 col-md-4" >
+
+              <div class="row">
+
+                <!--Facebook-->
+                <a href="https://www.instagram.com/elportonmx/" target="_blank" class="boton-redes col-md-4 mx-auto">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg>
+                </a>  
+              
+              </div>
+
+              <div class="row">
+
+                <!--Instagram-->
+                <a href="https://www.instagram.com/elportonmx/" target="_blank" class="boton-redes col-md-4 mx-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                    </svg>
+                </a>  
+              
+              </div>
+
+              <div class="row">
+
+                <!--Twitter-->
+                <a href="https://www.instagram.com/elportonmx/" target="_blank" class="boton-redes col-md-4 mx-auto">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                </svg>
+                </a>  
+              
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>                
+
+    </main>
+
+    <footer class="container mt-5">
+
+      <div class="row text-center">
+
+        <p>El nombre comercial, logotipo y la imagen comercial de El Portón®​ son propiedad de Alsea. Todos los derechos reservados</p>
+
+        <ul class="nav justify-content-around">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/menu.html">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sucursales">Sucursales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+
+      </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
